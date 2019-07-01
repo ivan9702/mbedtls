@@ -19,7 +19,7 @@ LOCAL_C_INCLUDES := $(MY_CURRENT_PATH)/include
 LOCAL_MODULE := libmbedx509
 
 # libmbedx509
-LOCAL_SRC_FILES := $(MY_CURRENT_PATH)/library/certs.c?
+LOCAL_SRC_FILES := $(MY_CURRENT_PATH)/library/certs.c
 LOCAL_SRC_FILES += $(MY_CURRENT_PATH)/library/pkcs11.c
 LOCAL_SRC_FILES += $(MY_CURRENT_PATH)/library/x509.c
 LOCAL_SRC_FILES += $(MY_CURRENT_PATH)/library/x509_create.c
